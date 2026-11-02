@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-app="sub">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
   <title>Privacy Policy — Time to Sub</title>
-  <style>
-    :root { color-scheme: light dark; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #10262b; background: #f4f9fa; }
-    @media (prefers-color-scheme: dark) { body { color: #e6f1f3; background: #0b171a; } a { color: #6fc6d3; } }
-    a { color: #1a6b7a; }
-    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
-    .meta { opacity: 0.7; font-size: 0.95rem; margin-bottom: 1.5rem; }
-    nav a { margin-right: 1rem; }
-    ul { padding-left: 1.2rem; }
-  </style>
+  <link rel="stylesheet" href="assets/legal.css" />
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="terms.html">Terms of Use</a>
-  </nav>
-  <h1>Privacy Policy</h1>
-  <p class="meta">Time to Sub · Last updated: 1 November 2026</p>
-
-  <p>This Privacy Policy explains how <strong>Giuseppe Lisanti</strong> (“we”, “us”) handles information in the <strong>Time to Sub</strong> app (the “App”).</p>
+  <div class="wrap">
+    <div class="topbar">
+      <a class="brand" href="index.html"><span class="mark" aria-hidden="true">S</span>Time to Sub</a>
+      <nav><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
+    </div>
+    <header class="hero"><h1>Privacy Policy</h1><p>Time to Sub · Last updated: 1 November 2026</p></header>
+    <main class="card">
+<p>This Privacy Policy explains how <strong>Giuseppe Lisanti</strong> (“we”, “us”) handles information in the <strong>Time to Sub</strong> app (the “App”).</p>
 
   <h2>1. Summary</h2>
   <p>The App works offline-first. The subscriptions you track stay on your device. There is no account to create and no bank connection. The free version shows ads (Google AdMob) and we use Firebase for crash reports and usage analytics; Pro removes the ads. We do not sell your personal data and we do not receive your subscription list.</p>
@@ -74,5 +65,8 @@
   <h2>16. Contact</h2>
   <p>Privacy requests: <a href="mailto:support.timetosub@gmail.com">support.timetosub@gmail.com</a></p>
   <p>Developer: Giuseppe Lisanti · Bundle ID: com.giuseppelisanti.TimeToSub</p>
+    </main>
+    <div class="footer"><span>© Giuseppe Lisanti</span><a href="https://peppelisanti.github.io/TimeToPayday-legal/">Time to Payday legal</a></div>
+  </div>
 </body>
 </html>
